@@ -476,3 +476,14 @@ a { text-decoration:none; }
 .proof-card:hover { border-color:var(--gold); box-shadow:0 6px 24px rgba(201,168,76,.15); }
 .proof-card img { filter:brightness(0) invert(1) opacity(.92); }
 .proof-card:hover img { filter:brightness(0) invert(1) opacity(1); }
+
+/* MOBILE CONVERSION */
+.form-group input, .form-group select, .form-group textarea { font-size:16px; }
+.sticky-bar2 { display:none; position:fixed; bottom:0; left:0; right:0; z-index:998; box-shadow:0 -4px 20px rgba(0,0,0,.18); }
+.sticky-bar2 a { flex:1; text-align:center; padding:16px 8px; font-family:'Barlow',sans-serif; font-size:13px; font-weight:800; letter-spacing:1px; text-transform:uppercase; }
+.sticky-call { background:var(--navy); color:var(--gold); }
+.sticky-cta { background:var(--gold); color:var(--navy); }
+@media (max-width:767px) {
+  .sticky-bar2 { display:flex; }
+  body { padding-bottom:56px; }
+}
