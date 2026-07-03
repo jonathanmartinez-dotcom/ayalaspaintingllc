@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /thanks-commercial/
+Disallow: /thanks-residential/
 
 Sitemap: https://wepaintcolorado.com/sitemap.xml
