@@ -487,3 +487,12 @@ a { text-decoration:none; }
   .sticky-bar2 { display:flex; }
   body { padding-bottom:56px; }
 }
+
+/* HERO VIDEO */
+.hero-video { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+.hero-visual { position:relative; }
+.hero-visual video ~ img { display:none; }
+@media (max-width:767px) {
+  .hero-video { display:none; }
+  .hero-visual video ~ img { display:block; }
+}
